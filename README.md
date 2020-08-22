@@ -6,3 +6,6 @@
 
 ## 说明
 
+预览：
+
+![快照](./doc/images/snapshot.png)
