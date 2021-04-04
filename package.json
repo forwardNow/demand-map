@@ -17,11 +17,15 @@
     "less-loader": "^6.2.0",
     "sass-loader": "^9.0.3",
     "style-loader": "^1.2.1",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "echarts": "^4.8.0"
+    "animejs": "^3.2.1",
+    "echarts": "^4.8.0",
+    "vue": "^2.6.12"
   }
 }
