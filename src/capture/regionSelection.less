@@ -1,0 +1,37 @@
+.rsa-guide {
+  z-index: 300000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  user-select: none;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .rsa-guide-line {
+    position: absolute;
+    user-select: none;
+  }
+
+  .rsa-guide-line_x {
+    height: 0;
+    width: 100%;
+    border-bottom: 1px dashed grey;;
+  }
+
+  .rsa-guide-line_y {
+    height: 100%;
+    width: 0;
+    border-right: 1px dashed grey;;
+  }
+
+  .rsa-guide-box {
+    display: none;
+    position: absolute;
+    background: #fff;
+    user-select: none;
+  }
+}
