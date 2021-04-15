@@ -5,7 +5,8 @@ const {VueLoaderPlugin} = require('vue-loader')
 module.exports = {
     // entry: './src/index.js',
     // entry: './src/assistant-widget/RegionSelection.js',
-    entry: './src/capture/main.js',
+    // entry: './src/capture/main.js',
+    entry: './src/render/main.js',
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
